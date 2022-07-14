@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import { UserContext } from "../context/useContext";
 import { Alert } from "react-bootstrap";
+import { useSelector } from "react-redux";
 const PrivateRoute = (props) => {
-  const { user } = useContext(UserContext);
+  const user = useSelector((state) => state.user.account);
   if (user && !user.auth) {
     return (
       <>
