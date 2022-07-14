@@ -1,0 +1,35 @@
+.sort-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  i {
+    cursor: pointer;
+    padding: 0 2px;
+  }
+}
+.input-Search {
+  padding-left: 8px;
+  border: none;
+  border: 1px solid rgb(47, 195, 214);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.add-new {
+  // display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .group-btns {
+    display: flex;
+    gap: 10px;
+    i {
+      padding: 0 2px;
+    }
+  }
+}
+.customize-table {
+  width: inherit;
+  overflow-x: auto;
+}
+.pagination {
+  justify-content: center;
+}
